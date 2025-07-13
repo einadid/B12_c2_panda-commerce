@@ -1,19 +1,49 @@
-nav{
-    display: flex;
-    justify-content: space-between;
+/* container */
+.container{
+    margin: 49px 157px 63px 157px;
+
+
 }
+
+
 /* Search-parent */
 .Search-parent{
-
-
+    position: relative;
+    color: rgb(241, 241, 241);
 }
 
 .Search-parent input{
     border-radius: 66px;
-    padding: 12px;
+    padding: 12px 30px;
     width: 508px;
     height: 48px;
-    
+    border: none;
+    font-size: 16px ;
     background-color: rgb(241, 241, 241);
 }
 
+.Search-parent i{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    color: rgb(186, 186, 186);
+}
+
+/* nav-bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px ;
+    font-weight: 200;
+}
