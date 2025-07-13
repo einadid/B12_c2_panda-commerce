@@ -1,5 +1,22 @@
 /* common css */
 
+/* font */
+/* poppins */
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* inter */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
 /* container */
 .container{
     margin: 49px 157px 63px 157px;
@@ -76,17 +93,15 @@ nav{
     padding: 46px;
     border-radius: 16px;
 }
-
 .banner h1{
     color: rgb(31, 31, 31);
     font-size: 56px;
     font-weight: 700;
+    font-family: 'Poppins';
 }
-
 .banner1{
     margin: 68px 612px 68px 46px;
 }
-
 .banner p{
     color: rgb(78, 78, 78);
     font-size: 16px;
@@ -94,17 +109,73 @@ nav{
     max-width: 456px;
     max-height: 97px;
 }
-
 .banner span{
+    font-family: 'poppins';
     color: rgb(255, 19, 111);
     font-size: 41px;
     font-weight: 500;
     display: block;
     margin-bottom: 0%;
 }
+.banner button{
+    font-family: 'inter';
+}
 .banner img {
     width: 402px;
     height: 378px;
 }
 
+
+/* categories */
+.categories-title{
+    font-size: 36px;
+    font-weight: 600;  
+}
+.categories-items{
+    display: flex;
+    gap: 26px;
+    width: 100%;
+}
+.catagories-card{
+    flex: 1;
+}
+.catagories-card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    padding: 30px;
+    border-radius: 15px;
+}
+.catagories-card1 h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.catagories-card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 30px;
+    border-radius: 15px;
+}
+.catagories-card2 h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.catagories-card3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);  
+    padding: 30px;
+    border-radius: 15px;
+}
+.catagories-card3 h3{
+    font-size: 36px;
+    font-weight: bold ;
+    color: white;
+}
 
